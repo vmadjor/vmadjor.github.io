@@ -319,6 +319,7 @@ padding-top: 10rem;
     font-size: 4.2rem;
 text-align: right;
 line-height: auto;
+margin: 10px 0;
 }
 @media only screen and (max-width: 941px) {
 .work a{
@@ -327,6 +328,9 @@ line-height: auto;
 }
 
 @media only screen and (max-width: 641px) {
+  .work p{
+    margin:0px 0;
+  }
 .work a{
     font-size: 4vw;
 }
