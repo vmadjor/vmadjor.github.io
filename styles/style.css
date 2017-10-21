@@ -94,14 +94,23 @@ i {
   height: 340px;
   display: flex;
   position: absolute;
-  border-radius: 90px;
+  border-radius: 340px;
   opacity: 0;
   animation-name: scale;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
+@media only screen and (max-width: 800px) {
+i{
+  width: 120px;
+  height: 120px;
+}
+.hole{
+  top:-30px;
+  left: -60px;
+}
+}
 i:nth-child(1) {
   animation-delay: 0.3s;
 }
@@ -264,7 +273,7 @@ margin-bottom: 0!important;
 }
 .light{
   opacity:0.5;
-  font-size: 2rem!important;
+  font-size: 12px !important;
 }
 
 .work {
@@ -309,7 +318,7 @@ padding-top: 10rem;
   color: white;
     font-size: 4.2rem;
 text-align: right;
-
+line-height: auto;
 }
 @media only screen and (max-width: 941px) {
 .work a{
@@ -372,4 +381,8 @@ overflow: hidden;
 }
 .contact a:hover{
   text-decoration: line-through;
+}
+.small-wh{
+  color: white;
+  font-size: 14px!important;
 }
